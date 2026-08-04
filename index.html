@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christian Deni Saputra - Portofolio TKJ</title>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== PROGRESS BAR ===== -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Christian<span>.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#certificates">Sertifikat</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li>
+                    <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Fresh Graduate SMK TKJ
+                </div>
+                <h1>
+                    <span class="greeting">Halo, Saya</span>
+                    Christian Deni <span>Saputra</span>
+                </h1>
+                <div class="typing-wrapper">
+                    <span class="prefix">Saya seorang</span>
+                    <span class="typing-text" id="typingText"></span>
+                </div>
+                <p>Lulusan SMK Teknik Komputer &amp; Jaringan dengan pengalaman PKL di perusahaan ternama Surabaya. Siap mengaplikasikan skill networking dan IT support di dunia profesional!</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Hubungi Saya
+                    </a>
+                    <a href="#experience" class="btn btn-secondary">
+                        <i class="fas fa-briefcase"></i> Lihat Pengalaman
+                    </a>
+                    <a href="CV/CV Christian Deni Saputra New.pdf" download class="btn btn-outline">
+                        <i class="fas fa-file-pdf"></i> Download CV
+                    </a>
+                </div>
+                <div class="availability">
+                    <i class="fas fa-circle"></i>
+                    <span>Siap bekerja &amp; open for opportunity</span>
+                </div>
+            </div>
+            <!-- ===== HERO IMAGE (FOTO PROFIL) ===== -->
+            <div class="hero-image">
+                <div class="profile-wrapper">
+                    <img src="img/Me.jpg" alt="Christian Deni Saputra" />
+                    <div class="floating-card card-1">
+                        <i class="fas fa-network-wired"></i> Network Engineer
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-laptop"></i> IT Support
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-server"></i> TKJ Graduate
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tentang Saya</span>
+                <h2 class="section-title">Kenali <span>Lebih Dekat</span></h2>
+                <p class="section-subtitle">Sedikit cerita tentang perjalanan saya di dunia Teknik Komputer &amp; Jaringan</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="img/Lulus.jpg" alt="About Christian" />
+                    <div class="experience-badge">
+                        <span class="number">6</span>
+                        <span class="label">Bulan PKL</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Lulusan SMK Teknik Komputer &amp; Jaringan</h3>
+                    <p>Saya adalah lulusan SMK Negeri 8 Jember jurusan Teknik Komputer dan Jaringan (TKJ) dengan nilai rata-rata <strong>84,22</strong>. Memiliki passion di bidang jaringan komputer, hardware, dan technical support.</p>
+                    <p>Selama PKL di PT Indo Bismar Surabaya, saya mendapatkan pengalaman langsung menangani jaringan dan support IT skala perusahaan.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="84.22">0</span>
+                            <span class="stat-label">Nilai Rata-rata</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="6">0</span>
+                            <span class="stat-label">Sertifikat+</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-label">Praktikum+</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="6">0</span>
+                            <span class="stat-label">Bulan PKL</span>
+                        </div>
+                    </div>
+                    <div class="personality-tags">
+                        <span><i class="fas fa-bolt"></i> Fast Learner</span>
+                        <span><i class="fas fa-users"></i> Team Player</span>
+                        <span><i class="fas fa-wrench"></i> Problem Solver</span>
+                        <span><i class="fas fa-comment"></i> Good Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pendidikan</span>
+                <h2 class="section-title">Perjalanan <span>Akademik</span></h2>
+            </div>
+            <div class="education-card">
+                <div class="edu-left">
+                     <img src="img/LOGO Sekolah.png" alt="Logo SMKN 8 Jember" style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 10px;" />
+                    <div class="year">2023 - 2026</div>
+                </div>
+                <div class="edu-right">
+                    <h3>SMK Negeri 8 Jember</h3>
+                    <h4>Teknik Komputer &amp; Jaringan (TKJ)</h4>
+                    <div class="edu-achievements">
+                        <div class="achievement">
+                            <i class="fas fa-trophy"></i>
+                            <span>Transkrip Nilai Rata-rata: 84,22</span>
+                        </div>
+                        <div class="achievement">
+                            <i class="fas fa-medal"></i>
+                            <span>Peringkat 7 di kelas TKJ</span>
+                        </div>
+                    </div>
+                    <div class="subjects">
+                        <h5>Mata Pelajaran Unggulan:</h5>
+                        <div class="subject-tags">
+                            <span>Konfigurasi MikroTik</span>
+                            <span>Internet of Things</span>
+                            <span>Sistem Komputer</span>
+                            <span>Pemrograman Dasar</span>
+                            <span>Perakitan Komputer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pengalaman</span>
+                <h2 class="section-title">PKL / <span>Magang</span></h2>
+            </div>
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div class="exp-company">
+                        <i class="fas fa-building"></i>
+                        <div>
+                            <h3>PT. Indo Bismar</h3>
+                            <p>Perusahaan perdagangan &amp; penyedia layanan teknologi</p>
+                        </div>
+                    </div>
+                    <div class="exp-meta">
+                        <span><i class="fas fa-calendar"></i> Mei - Okt 2025 (6 Bulan)</span>
+                        <span><i class="fas fa-map-marker"></i> Surabaya, Jawa Timur</span>
+                    </div>
+                </div>
+                <div class="exp-body">
+                    <h4><i class="fas fa-tasks"></i> Job Desk &amp; Tanggung Jawab:</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Membantu teknisi memperbaiki perangkat keras (hardware &amp; software)</li>
+                        <li><i class="fas fa-check-circle"></i> Instalasi dan konfigurasi access point untuk customer</li>
+                        <li><i class="fas fa-check-circle"></i> Troubleshooting komputer dan laptop karyawan</li>
+                        <li><i class="fas fa-check-circle"></i> Melayani customer yang mengalami komplain kerusakan</li>
+                        <li><i class="fas fa-check-circle"></i> Dokumentasi topologi jaringan dan inventaris hardware</li>
+                        <li><i class="fas fa-check-circle"></i> Mendampingi teknisi dalam perbaikan perangkat customer</li>
+                    </ul>
+                </div>
+                <div class="exp-achievement">
+                    <h4><i class="fas fa-star"></i> Prestasi:</h4>
+                    <p>Mendapat apresiasi dari atasan karena berhasil menyelesaikan perbaikan perangkat keras customer dan menjual produk PT tersebut.</p>
+                </div>
+                <div class="testimonial">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Christian adalah anak magang yang cepat belajar dan memiliki dedikasi tinggi. Ia mampu menangani masalah teknis dengan baik dan selalu proaktif membantu tim."</p>
+                    <h5>— Rozikul, Kepala Quality Control PT. Indo Bismar</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Keahlian</span>
+                <h2 class="section-title">Kompetensi <span>Teknis</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3><i class="fas fa-network-wired"></i> Networking</h3>
+                    <div class="skill-item">
+                        <span>Router/MikroTik</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:87%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Switch &amp; VLAN</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Kabeling (UTP/STP/Fiber)</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>IP Addressing &amp; Subnetting</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:86%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Wireless Network (AP)</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:84%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i class="fas fa-desktop"></i> Hardware &amp; IT Support</h3>
+                    <div class="skill-item">
+                        <span>Perakitan &amp; Upgrade PC</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Troubleshooting Hardware</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:86%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Instalasi OS (Windows/Linux)</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Instalasi Driver &amp; Software</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:89%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Backup &amp; Restore Data</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i class="fas fa-tools"></i> Tools &amp; Software</h3>
+                    <div class="skill-item">
+                        <span>MikroTik Winbox / CLI</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:84%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Cisco Packet Tracer</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:83%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Wireshark</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>VirtualBox / VMware</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Microsoft Office 365</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width:87%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Soft Skills -->
+            <div class="soft-skills">
+                <h3 class="soft-title"><i class="fas fa-heart"></i> Soft Skills</h3>
+                <div class="soft-grid">
+                    <div class="soft-item"><i class="fas fa-users"></i> Team Work</div>
+                    <div class="soft-item"><i class="fas fa-comments"></i> Komunikasi</div>
+                    <div class="soft-item"><i class="fas fa-clock"></i> Disiplin</div>
+                    <div class="soft-item"><i class="fas fa-brain"></i> Problem Solving</div>
+                    <div class="soft-item"><i class="fas fa-chart-line"></i> Fast Learner</div>
+                    <div class="soft-item"><i class="fas fa-laptop-code"></i> IT Support</div>
+                    <div class="soft-item"><i class="fas fa-network-wired"></i> Fiber to the Home</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CERTIFICATES SECTION ===== -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sertifikat</span>
+                <h2 class="section-title">Sertifikat &amp; <span>Pelatihan</span></h2>
+            </div>
+            <div class="certs-grid" id="certsGrid">
+                <!-- Load by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Proyek</span>
+                <h2 class="section-title">Proyek &amp; <span>Praktikum</span></h2>
+            </div>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Load by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Kontak</span>
+                <h2 class="section-title">Hubungi <span>Saya</span></h2>
+                <p class="section-subtitle">Siap untuk bekerja dan memberikan kontribusi terbaik!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Mari Terhubung!</h3>
+                    <p>Saya sedang mencari peluang sebagai Network Engineer, IT Support, atau Teknisi Jaringan.</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>Email</span>
+                            <p>christiandenisaputra01@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <span>Telepon</span>
+                            <p>+62 812 5228 5123</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <span>WhatsApp</span>
+                            <a href="#" id="whatsappButton">+62 812 5228 5123</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <span>Instagram</span>
+                            <p>@chrzz_ox</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h3>Kirim Pesan</h3>
+                    <input type="text" placeholder="Nama Lengkap" required />
+                    <input type="email" placeholder="Email" required />
+                    <input type="text" placeholder="Perusahaan / Instansi" required />
+                    <select required>
+                        <option value="">Pilih Topik</option>
+                        <option>Lowongan Pekerjaan</option>
+                        <option>Magang / PKL</option>
+                        <option>Kerjasama Proyek</option>
+                        <option>Konsultasi Jaringan</option>
+                        <option>Lainnya</option>
+                    </select>
+                    <textarea placeholder="Deskripsikan kebutuhan / pesan Anda" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Kirim Pesan
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Christian Deni Saputra — Fresh Graduate SMK Teknik Komputer &amp; Jaringan</p>
+            <p class="footer-tagline">Ready to work &amp; contribute! 🚀</p>
+        </div>
+    </footer>
+
+    <!-- ===== FLOATING WHATSAPP ===== -->
+    <a href="#" id="floatingWhatsapp" class="floating-wa">
+        <i class="fab fa-whatsapp"></i>
+        <span class="tooltip">Chat WhatsApp</span>
+    </a>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="script.js"></script>
+
+</body>
+</html>
