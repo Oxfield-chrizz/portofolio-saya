@@ -237,8 +237,8 @@ const certificates = [
         title: 'UKK',
         description: 'Network Device Installation and Configuration',
         status: 'Certified',
-        image: 'sertifikat/ukk.jpg',
-        download: 'sertifikat/ukk.pdf',
+        image: 'sertifikat/UKK.jpg',
+        download: 'sertifikat/UKK.pdf',
         icon: 'fa-solid fa-certificate'
     },
     {
@@ -246,8 +246,8 @@ const certificates = [
         title: 'BNSP',
         description: 'Sertifikasi Kompetensi Teknik Jaringan Komputer',
         status: 'Certified',
-        image: 'sertifikat/bnsp.jpg',
-        download: 'sertifikat/bnsp.pdf',
+        image: 'sertifikat/BNSP.jpg',
+        download: 'sertifikat/BNSP.pdf',
         icon: 'fa-solid fa-award'
     },
     {
@@ -255,8 +255,8 @@ const certificates = [
         title: 'SHTKA',
         description: 'Tes Kemampuan Akademik',
         status: 'Certified',
-        image: 'sertifikat/tka.jpg',
-        download: 'sertifikat/tka.pdf',
+        image: 'sertifikat/TKA.jpg',
+        download: 'sertifikat/TKA.pdf',
         icon: 'fa-solid fa-graduation-cap'
     },
     {
